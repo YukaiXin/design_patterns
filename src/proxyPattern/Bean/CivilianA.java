@@ -8,25 +8,21 @@ package proxyPattern.Bean;
 public class CivilianA extends Civilian {
 
 
-    @Override
-    public void submit() {
+    @Override public void submit() {
         System.out.print("CivilianA submit \n");
     }
 
-    @Override
-    public void burden() {
+    @Override public void burden() {
         System.out.print("CivilianA burden \n");
 
     }
 
-    @Override
-    public void defend() {
+    @Override public void defend() {
         System.out.print("CivilianA defend \n");
 
     }
 
-    @Override
-    public void finish() {
+    @Override public void finish() {
         System.out.print("CivilianA finish \n");
 
     }
