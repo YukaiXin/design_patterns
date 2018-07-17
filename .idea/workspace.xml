@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5eae81-b93f-4cee-a6c5-e2d9992841b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/ObserverMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Weather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleInstance/SimpleInstanceDoubleLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleInstance/SimpleInstanceDoubleLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observerPattern/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observerPattern/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/ObserverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observerPattern/ObserverMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverPattern/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observerPattern/Weather.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
         </entry>
       </file>
       <file leaf-file-name="ObserverMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObserverPattern/ObserverMain.java">
+        <entry file="file://$PROJECT_DIR$/src/observerPattern/ObserverMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
@@ -40,10 +40,10 @@
         </entry>
       </file>
       <file leaf-file-name="Weather.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Weather.java">
+        <entry file="file://$PROJECT_DIR$/src/observerPattern/Weather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
@@ -57,7 +57,7 @@
         </entry>
       </file>
       <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Observable.java">
+        <entry file="file://$PROJECT_DIR$/src/observerPattern/Observable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
@@ -72,7 +72,7 @@
         </entry>
       </file>
       <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/observerPattern/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
@@ -164,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/ObserverPattern/Observable.java" />
         <option value="$PROJECT_DIR$/src/ObserverPattern/Weather.java" />
         <option value="$PROJECT_DIR$/src/ObserverPattern/ObserverMain.java" />
+        <option value="$PROJECT_DIR$/src/observerPattern/Weather.java" />
       </list>
     </option>
   </component>
@@ -199,24 +200,7 @@
             <path>
               <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObserverPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,12 +244,12 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="ObserverMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObserverPattern.ObserverMain" />
+      <option name="MAIN_CLASS_NAME" value="observerPattern.ObserverMain" />
       <module name="design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObserverPattern.*" />
+          <option name="PATTERN" value="observerPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,15 +329,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531798474437</updated>
-      <workItem from="1531798477828" duration="9959000" />
+      <workItem from="1531798477828" duration="11418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9959000" />
+    <option name="totallyTimeSpent" value="11418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="43" width="1400" height="937" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -549,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/ObserverMain.java">
+    <entry file="file://$PROJECT_DIR$/src/observerPattern/ObserverMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
@@ -559,7 +544,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Observable.java">
+    <entry file="file://$PROJECT_DIR$/src/observerPattern/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
@@ -572,17 +557,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/observerPattern/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverPattern/Weather.java">
+    <entry file="file://$PROJECT_DIR$/src/observerPattern/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />

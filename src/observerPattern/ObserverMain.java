@@ -1,4 +1,4 @@
-package ObserverPattern;
+package observerPattern;
 
 /**
  * Created by kxyu on 2018/7/17
