@@ -1,7 +1,6 @@
 package prototypePattern;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by kxyu on 2018/7/18
